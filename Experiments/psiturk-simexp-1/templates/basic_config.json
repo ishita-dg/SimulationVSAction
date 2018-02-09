@@ -1,0 +1,11 @@
+{
+    "score_initialization": 100,
+    "score_dec_per_s": 10,
+    "score_dec_per_exp": 10,
+    "score_loss_for_miss": -10,
+    "time_until_shot": 3,
+    "physics_travel_time": 5,
+    "physics_px_per_s": 600,
+    "simulation_hz": 40,
+    "arrow_length": 30
+}

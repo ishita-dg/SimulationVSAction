@@ -1,0 +1,85 @@
+canvas { border: 1px solid black; }
+.field {border: 1px solid black;
+            width: 1000px;
+            height: 620px;
+            line-height: 620px;
+            text-align: center;
+            vertical-align: central;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 40px;
+            color: black;
+}
+span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#textfield {
+    height: 620px;
+    width: 1020px;
+    align-self: center;
+    margin: auto;
+    vertical-align: middle;
+}
+
+#canvas_surround {
+    height: 620px;
+    width: 1020px;
+    align-self: center;
+    margin: auto;
+    vertical-align: middle;
+    background-color: gold;
+    display: table;
+}
+
+#table {
+    height: 600px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    vertical-align: middle;
+    display: block;
+}
+
+#bottom_elements {
+    display: table;
+    height: 40px;
+    width: 1020px;
+    table-layout: fixed;
+    align-self: center;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.sub_bottom {
+    display: table-cell;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+#score_counter{
+    width: 420px;
+    font-size:40px;
+}
+
+#shot_button{
+    width: 180px;
+}
+
+#total_score {
+    width: 150px;
+}
+
+#progress {
+    width: 150px;
+}
+
+#totals {
+    display: table;
+    width: 380px;
+    table-layout: fixed;
+}
